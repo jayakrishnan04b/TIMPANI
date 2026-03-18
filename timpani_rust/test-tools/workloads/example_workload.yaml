@@ -20,7 +20,7 @@
 #
 # To fire the full test chain:
 #   1. cargo run -p timpani-o -- --nodeconfig examples/node_configurations.yaml
-#   2. cargo run -p test-tools --bin piccolo-sim -- -w workloads/example_workload.yaml
+#   2. cargo run -p test-tools --bin pullpiri-sim -- -w workloads/example_workload.yaml
 #   3. cargo run -p test-tools --bin node-sim  -- --nodes node01,node02,node03 \
 #          --dmiss node01:task_safety --dmiss-delay-ms 2000
 
